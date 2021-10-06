@@ -1,0 +1,653 @@
+/* @font-face {
+    font-family: 'TT Norms';
+    src: url(TTNorms-Regular.otf);
+  } */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.chat{
+    position: relative;
+    height: 80%;
+    width: 100%;
+    top: 13%;
+    
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.msgflex{
+ 
+  
+   display: flex;
+   flex-direction: column;
+  
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+   
+   
+}
+.msg{
+    display: flex;
+  
+}
+
+.name{
+  
+    width: 25%;
+   
+   height: auto;
+   margin-left: 21%;
+  
+   margin-bottom: 1%;
+   font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #9898AF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile1{
+ 
+  margin-left: 13%;
+    display: flex;
+   height: 49px;
+   width: 40px;
+  
+    justify-content: flex-end;
+   
+}
+
+
+    .chat1{
+  
+
+   
+       position: relative;
+        left: -15%;
+       
+        border-radius: 5px;
+        background: #2D2D39;
+        font-size: 15px;
+        width: 27%;
+        
+        margin-left: 18%;
+       
+        }
+
+.msgflex0{
+  
+   
+        display: flex;
+        flex-direction: column;
+        
+         width: 100%;
+         margin-top: 2%;
+         margin-bottom: 3%;
+        
+ }
+     .msg0{
+         display: flex;
+        
+     }
+     
+     .name0{
+       
+         width: 25%;
+        
+         height: auto;
+        margin-left: 51%;
+       
+       
+        font-family: 'Poppins', sans-serif;
+         font-style: normal;
+         font-weight: 500;
+         font-size: 11px;
+         line-height: 13px;
+         color: #9898AF;
+         display: flex;
+         justify-content: space-between;
+     }
+     
+     .profile0{
+      
+       margin-left: 54%;
+         display: flex;
+         height: 49px;
+         width: 40px;
+        margin-top: 1%;
+         justify-content: flex-end;
+        
+     }
+     
+     .chat0{
+       
+     
+        
+        position: relative;
+         left: 50%;
+         margin-top: 1%;
+         border-radius: 5px;
+         background: linear-gradient(107.63deg, #C54949 2.2%, #E22128 2.21%, #670C0C 100.1%);
+         font-size: 15px;
+         width: 27%;
+        
+         }
+     
+      
+      
+ 
+ 
+ 
+    .box:before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 5px solid transparent;
+        border-right: 2px solid  #2D2D39;
+        border-top: 5px solid #2D2D39;;
+        border-bottom: 5px solid transparent;
+        left: -3px;
+       
+        }
+    .box1:before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 2px solid #770e0e;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #700e0e;
+        border-bottom: 10px solid transparent;
+        right: -4px;
+        top: 0px;
+      }
+
+  
+
+::-webkit-scrollbar {
+    width: 5.74px;
+   
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background-color: #2D2D39;;
+    border-radius: 19.665px;
+
+  }
+   
+ 
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #E22128 0%, rgba(226, 33, 40, 0.68) 100%);
+    border-radius: 19.665px;
+
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #E22128 0%, rgba(226, 33, 40, 0.68) 100%);
+  } 
+
+
+
+.p1{
+ 
+  
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-bottom: 5%;
+    padding-right: 3%;
+    
+    color: rgba(255, 255, 255, 0.6);
+    
+    
+    }
+
+
+/* .box:before {
+content: "";
+width: 0px;
+height: 0px;
+position: absolute;
+border-left: 2px solid transparent;
+border-right: 6px solid #242437;
+border-top: 2px solid #242437;
+border-bottom: 5px solid transparent;
+left: -5px;
+top: 0px;
+}
+.box1:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 2px solid #505069;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #505069;
+    border-bottom: 10px solid transparent;
+    right: -4px;
+    top: 0px;
+  } */
+  
+.input1{
+    position: absolute;
+left: 6%;
+right: 6%;
+height: 6%;
+bottom: 2.52%;
+color: #FFFFFF;
+background: #16161C;
+box-shadow: inset -4px -4px 8px rgba(59, 68, 81, 0.8), inset 4px 4px 8px rgba(0, 0, 0, 0.8);
+border-radius: 5px;
+}
+.input1 .smile{
+    
+    position: absolute;
+    width: 3%;
+    height: auto;
+    left: 3%;
+    right: 26.04%;
+    top: 17.97%;
+    
+}
+.input2{
+  height: 100%;
+  width: 80%;
+   font-size: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+display: flex;
+
+
+overflow-x: hidden;
+}
+.send{
+    position: absolute;
+    width: 3%;
+    height: auto;
+    left: 93%;
+   
+    top: 17.97%;
+}
+
+@media only screen and (max-width:641px){
+   
+    
+    .chat{
+        top: 15%;
+        height: 70%;
+    }
+   
+    .cross{
+       
+        width: 3%;
+        height: 40%;
+    }
+    .crosssign{
+        font-size: 9px;
+    }
+   .chat1 , .chat0{
+       width: 40%;
+   }
+   .chat0{
+       margin-left: -18%;
+   }
+   
+    .p1{
+        font-size: 11px;
+        line-height: 13px;
+      
+      
+    }
+    .name{
+        margin-left: 25%;
+        width: 40%;
+        font-size: 10px;
+    }
+    .name0{
+        margin-left: 33%;
+        width: 38%;
+         font-size: 10px;
+     }
+    
+    
+    
+    
+    .profile1 img,.profile0 img{
+        height: 42px;
+        width: 50px;
+       
+        border-radius: 3px;
+       
+    }
+    .input1{
+        height: 10%;
+        
+    }
+    .send{
+        height: 60%;
+        width: 4%;
+        top: 25%;
+    }
+    .input1 .smile{
+        height: 60%;
+        width: 3%;
+        top: 25%;
+    }
+    ::-webkit-scrollbar {
+        width: 1.74px;
+       
+      }
+  
+
+    
+}
+@media only screen and (min-width:641px) and (max-width:668px){
+   
+     .chatbox{
+        position: absolute;
+        width: 94%;
+        left: 3%;
+        
+     }
+     .chatboxhead{
+         height: 13.416%;
+     }
+    
+     .chathead{
+        
+         font-size: 14px;
+     }
+     .cross{
+       
+        width: 3%;
+        height: 40%;
+    }
+    .crosssign{
+        font-size: 9px;
+    }
+     .chat1 , .chat0{
+        width: 40%;
+    }
+    .chat0{
+        margin-left: -18%;
+    }
+     .p1{
+         font-size: 11px;
+         line-height: 13px;
+       
+       
+     }
+     .name{
+        margin-left: 25%;
+        width: 40%;
+        font-size: 10px;
+    }
+    .name0{
+        margin-left: 33%;
+        width: 38%;
+         font-size: 10px;
+     }
+     
+     
+     
+     .profile1 img,.profile0 img{
+         height: 42px;
+         width: 50px;
+        
+         border-radius: 3px;
+        
+     }
+     .input1{
+         height: 10%;
+         
+     }
+     .send{
+         height: 60%;
+         width: 4%;
+         top: 25%;
+     }
+     .input1 .smile{
+         height: 60%;
+         width: 3%;
+         top: 25%;
+     }
+     ::-webkit-scrollbar {
+         width: 1.74px;
+        
+       }
+   
+ 
+     
+   
+}
+@media only screen and (min-width:668px) and (max-width:721px){
+  
+    
+     .chat{
+         top: 15%;
+         height: 70%;
+     }
+     .cross{
+       
+        width: 3%;
+        height: 40%;
+    }
+    .crosssign{
+        font-size: 9px;
+    }
+    .chat1 , .chat0{
+        width: 40%;
+    }
+    .chat0{
+        margin-left: -18%;
+    }
+    
+     .p1{
+         font-size: 11px;
+         line-height: 13px;
+       
+       
+     }
+     .name{
+        margin-left: 25%;
+        width: 40%;
+        font-size: 10px;
+    }
+    .name0{
+        margin-left: 33%;
+        width: 38%;
+         font-size: 10px;
+     }
+     
+     
+     
+     .profile1 img,.profile0 img{
+         height: 42px;
+         width: 50px;
+        
+         border-radius: 3px;
+        
+     }
+     .input1{
+         height: 10%;
+         
+     }
+     .send{
+         height: 60%;
+         width: 4%;
+         top: 25%;
+     }
+     .input1 .smile{
+         height: 60%;
+         width: 3%;
+         top: 25%;
+     }
+     ::-webkit-scrollbar {
+         width: 1.74px;
+        
+       }
+   
+ 
+   
+}
+@media only screen and (min-width:721px) and (max-width:813px){
+   
+    
+     .chat{
+         top: 15%;
+         height: 70%;
+     }
+    
+     .cross{
+       
+        width: 3%;
+        height: 40%;
+    }
+    .crosssign{
+        font-size: 9px;
+    }
+     .chat1 , .chat0{
+        width: 40%;
+    }
+    .chat0{
+        margin-left: -18%;
+    }
+    
+     .p1{
+         font-size: 11px;
+         line-height: 13px;
+       
+       
+     }
+     .name{
+        margin-left: 25%;
+        width: 40%;
+        font-size: 10px;
+    }
+    .name0{
+        margin-left: 33%;
+        width: 38%;
+         font-size: 10px;
+     }
+     
+     
+     
+     .profile1 img,.profile0 img{
+         height: 42px;
+         width: 50px;
+        
+         border-radius: 3px;
+        
+     }
+     .input1{
+         height: 10%;
+         
+     }
+     .send{
+         height: 60%;
+         width: 4%;
+         top: 25%;
+     }
+     .input1 .smile{
+         height: 60%;
+         width: 3%;
+         top: 25%;
+     }
+     ::-webkit-scrollbar {
+         width: 1.74px;
+        
+       }
+   
+ 
+}
+@media only screen and (min-width:813px) and (max-width:1025px){
+   
+    .crosssign{
+        font-size: 10px;
+    }
+    
+   
+    .p1{
+        font-size: 14px;
+        padding: 7%;
+        
+      
+    }
+    .profile1 img,.profile0 img{
+        border-radius: 6px;
+    }
+    ::-webkit-scrollbar {
+        width: 2.74px;
+       
+      }
+}
+@media only screen and (min-width:1025px) and (max-width:1367px){
+    .chathead{
+        font-size: 18px;
+    }
+   
+    .crosssign{
+        font-size: 70%;
+    }
+   
+    .p1{
+        font-size: 14px;
+        line-height: 15px;
+       
+      
+    }
+   .name , .name0{
+       font-size: 13px;
+   }
+    
+   .profile1 img,.profile0 img{
+    border-radius: 8px;
+}
+    ::-webkit-scrollbar {
+        width: 2.74px;
+       
+      }
+}
+@media only screen and (min-width:1367px) and (max-width:1919px){
+    .chathead{
+        font-size: 16px;
+    }
+   
+    .crosssign{
+        font-size: 70%;
+    }
+   
+    ::-webkit-scrollbar {
+        width: 3.74px;
+       
+      }
+   
+   
+   .profile1 img,.profile0 img{
+       border-radius: 10px;
+   }
+}
+@media only screen and (min-width:1919px){
+    .profile1 img,.profile0 img{
+        border-radius: 10px;
+    }
+  
+
+}
